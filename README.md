@@ -56,7 +56,7 @@ Once you've completed these steps, delete the content of this **README** and add
 
 *This repo was initially generated from a bookdown template available here: https://github.com/jtr13/bookdown-template.*
 
-(And starring the repo would be nice too!)
+(And starring the repo would be nice too!) Ha! Ha!
 
 ### Demo Video
 
