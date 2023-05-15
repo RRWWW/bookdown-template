@@ -1,1 +1,12 @@
 # A caucus-race and a long tale
+
+
+$$
+
+\begin{align*}
+\text{odds ratio}=\mathrm{OR}=\dfrac{\mathrm{O}\left(E\mid D\right)}{\mathrm{O}\left(E\mid\overline{D}\right)}= & \dfrac{\mathrm{P}\left(E\mid D\right)/\mathrm{P}\left(\overline{E}\mid D\right)}{\mathrm{P}\left(E\mid D\right)/\mathrm{P}\left(\overline{E}\mid\overline{D}\right)}=\dfrac{\left|E\cap D\right|\left|\overline{E}\cap\overline{D}\right|}{\left|\overline{E}\cap D\right|\left|E\cap\overline{D}\right|}=\dfrac{ad}{bc}\\
+= & \dfrac{a/b}{c/d}=\dfrac{\left|E\cap D\right|/\left|E\cap\overline{D}\right|}{\left|\overline{E}\cap D\right|/\left|\overline{E}\cap\overline{D}\right|}=\dfrac{\dfrac{\left|E\cap D\right|}{\left|E\right|}/\dfrac{\left|E\cap\overline{D}\right|}{\left|E\right|}}{\dfrac{\left|\overline{E}\cap D\right|}{\left|\overline{E}\right|}/\dfrac{\left|\overline{E}\cap\overline{D}\right|}{\left|\overline{E}\right|}}=\dfrac{\mathrm{P}\left(D\mid E\right)/\mathrm{P}\left(\overline{D}\mid E\right)}{\mathrm{P}\left(D\mid\overline{E}\right)/\mathrm{P}\left(\overline{D}\mid\overline{E}\right)}=\dfrac{\mathrm{O}\left(D\mid E\right)}{\mathrm{O}\left(D\mid\overline{E}\right)}\\
+= & \dfrac{a/c}{b/d}=\dfrac{\left|E\cap D\right|/\left|\overline{E}\cap D\right|}{\left|E\cap\overline{D}\right|/\left|\overline{E}\cap\overline{D}\right|}=\dfrac{\dfrac{\left|E\cap D\right|}{\left|D\right|}/\dfrac{\left|\overline{E}\cap D\right|}{\left|D\right|}}{\dfrac{\left|E\cap\overline{D}\right|}{\left|\overline{D}\right|}/\dfrac{\left|\overline{E}\cap\overline{D}\right|}{\left|\overline{D}\right|}}=\dfrac{\mathrm{P}\left(E\mid D\right)/\mathrm{P}\left(\overline{E}\mid D\right)}{\mathrm{P}\left(E\mid D\right)/\mathrm{P}\left(\overline{E}\mid\overline{D}\right)}=\dfrac{\mathrm{O}\left(E\mid D\right)}{\mathrm{O}\left(E\mid\overline{D}\right)}
+\end{align*}
+
+$$
