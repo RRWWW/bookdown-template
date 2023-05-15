@@ -1,5 +1,5 @@
 book_filename: "bookdownproj"
-output_dir: docs
+output_dir: "docs"
 delete_merged_file: true
 edit: https://github.com/RRWWW/bookdown-template/edit/main/%s
 view: https://github.com/RRWWW/bookdown-template/blob/main/%s
