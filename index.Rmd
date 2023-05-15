@@ -7,3 +7,14 @@ site: bookdown::bookdown_site
 
 # Down the rabbit-hole
 
+\begin{align*}
+ & \begin{cases}
+\overset{n}{\underset{i=1}{,}}X_{i}\overset{\text{IID}}{\sim}\mathrm{n}\left(\mu,\sigma\right)\\
+\overline{X}=\dfrac{1}{n}\sum\limits _{i=1}^{n}X_{i}
+\end{cases}\Rightarrow\begin{cases}
+\mathrm{M}\left(\xi\right)=\mathrm{M}_{X_{i}}\left(\xi\right)=\mathrm{e}^{\left(\mu\xi+\frac{\sigma^{2}}{2}\xi^{2}\right)}\\
+\mathrm{M}_{\overline{X}}\left(\xi\right)=\prod\limits _{i=1}^{n}\mathrm{M}\left(\dfrac{\xi}{n}\right)
+\end{cases}\\
+\Rightarrow & \mathrm{M}_{\overline{X}}\left(\xi\right)=\prod\limits _{i=1}^{n}\mathrm{M}\left(\dfrac{\xi}{n}\right)=\prod\limits _{i=1}^{n}\mathrm{e}^{\left(\mu\frac{\xi}{n}+\frac{\sigma^{2}}{2}\left(\frac{\xi}{n}\right)^{2}\right)}=\mathrm{e}^{n\left(\mu\frac{\xi}{n}+\frac{\sigma^{2}}{2}\left(\frac{\xi}{n}\right)^{2}\right)}=\mathrm{e}^{\left(\mu\xi+\frac{\sigma^{2}}{2}\frac{\xi^{2}}{n}\right)}=\mathrm{e}^{\left(\mu\xi+\frac{\left(\frac{\sigma}{\sqrt{n}}\right)^{2}}{2}\xi^{2}\right)}\\
+\Rightarrow & \mathrm{M}_{\overline{X}}\left(\xi\right)=\mathrm{e}^{\left(\mu\xi+\frac{\left(\frac{\sigma}{\sqrt{n}}\right)^{2}}{2}\xi^{2}\right)}\Rightarrow\overline{X}\sim\mathrm{n}\left(\mu,\frac{\sigma}{\sqrt{n}}\right)
+\end{align*}
