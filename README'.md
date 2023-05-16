@@ -48,6 +48,8 @@ If you need help getting git/GitHub to work with RStudio see: [Happy Git and Git
 
 - [ ] 4. If it looks good, commit and push all changed files to GitHub. 
 
+- [ ] 5. LaTeX/PDF `rmarkdown::render_site(output_format = 'bookdown::pdf_book', encoding = 'UTF-8')` .pdf will be produced in output directory.
+
 (You will need to repeat steps 2 and 4 every time you wish to update the book online.)
 
 ### Edit README	(GitHub or RStudio)

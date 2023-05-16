@@ -1,4 +1,4 @@
---- 
+---
 title: "ALICE in WONDERLAND"
 author: "YOUR NAME HERE"
 date: "`r Sys.Date()`"
@@ -18,3 +18,4 @@ site: bookdown::bookdown_site
 \Rightarrow & \mathrm{M}_{\overline{X}}\left(\xi\right)=\prod\limits _{i=1}^{n}\mathrm{M}\left(\dfrac{\xi}{n}\right)=\prod\limits _{i=1}^{n}\mathrm{e}^{\left(\mu\frac{\xi}{n}+\frac{\sigma^{2}}{2}\left(\frac{\xi}{n}\right)^{2}\right)}=\mathrm{e}^{n\left(\mu\frac{\xi}{n}+\frac{\sigma^{2}}{2}\left(\frac{\xi}{n}\right)^{2}\right)}=\mathrm{e}^{\left(\mu\xi+\frac{\sigma^{2}}{2}\frac{\xi^{2}}{n}\right)}=\mathrm{e}^{\left(\mu\xi+\frac{\left(\frac{\sigma}{\sqrt{n}}\right)^{2}}{2}\xi^{2}\right)}\\
 \Rightarrow & \mathrm{M}_{\overline{X}}\left(\xi\right)=\mathrm{e}^{\left(\mu\xi+\frac{\left(\frac{\sigma}{\sqrt{n}}\right)^{2}}{2}\xi^{2}\right)}\Rightarrow\overline{X}\sim\mathrm{n}\left(\mu,\frac{\sigma}{\sqrt{n}}\right)
 \end{align*}
+
